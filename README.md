@@ -1,6 +1,6 @@
-# 🤖 AI Resume Analyzer — Final Year Project
+# 🤖 AI Resume Analyzer — Python Project
 
-A full-stack web app that analyzes resumes using Claude AI and gives instant feedback.
+A full-stack web app that analyzes resumes using GROQ API and gives instant feedback.
 
 ## Setup (2 minutes)
 
@@ -10,15 +10,15 @@ pip install -r requirements.txt
 ```
 
 ### 2. Set your API key
-Get a free API key from https://console.anthropic.com
+Get a free API key from Groq's console
 
 **Windows:**
 ```bash
-set ANTHROPIC_API_KEY=your_key_here
+set GROQ_API_KEY=your_key_here
 ```
 **Mac/Linux:**
 ```bash
-export ANTHROPIC_API_KEY=your_key_here
+export GROQ_API_KEY=your_key_here
 ```
 
 ### 3. Run the app
